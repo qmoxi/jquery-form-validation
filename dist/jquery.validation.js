@@ -4,7 +4,7 @@
  * Licensed under the MIT license
  *
  * @author Tom Bertrand
- * @version 1.5.3 (2015-12-02)
+ * @version 1.5.3 (2018-05-10)
  * @link http://www.runningcoder.org/jqueryvalidation/
  */
 ;
@@ -1516,7 +1516,9 @@
             var len = this.length >>> 0;
 
             var from = Number(arguments[1]) || 0;
-            from = (from < 0) ? Math.ceil(from) : Math.floor(from);
+            from = (from < 0) ?
+                Math.ceil(from) :
+                Math.floor(from);
             if (from < 0)
                 from += len;
 
@@ -1556,4 +1558,4 @@
         };
     }
 
-}(window, document, window.jQuery));
+}(window, document, $));

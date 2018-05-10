@@ -4,7 +4,7 @@
  * Licensed under the MIT license
  *
  * @author Tom Bertrand
- * @version 1.5.3 (2015-12-02)
+ * @version 1.5.3 (2018-05-10)
  * @link http://www.runningcoder.org/jqueryvalidation/
 */
 ;
@@ -2077,4 +2077,4 @@
     }
     // {/debug}
 
-}(window, document, window.jQuery));
+}(window, document, $));
